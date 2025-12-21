@@ -1,0 +1,6 @@
+---
+icon: stars
+---
+
+# Decoration Attributes
+
