@@ -31,7 +31,7 @@ This attribute can be used only with: <mark style="color:$primary;">**Vector2**<
 
 <p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
 
-### <i class="fa-square-code">:square-code:</i>   Code
+### <i class="fa-square-code">:square-code:</i>  Code
 
 ```csharp
 [MinMaxSlider(0, 100)]
@@ -41,7 +41,7 @@ public Vector2Int IntType = new Vector2Int(25, 75);
 public Vector2 FloatType = new Vector2(25, 75);
 ```
 
-### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i> Change History
+### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i>  Change History
 
 {% columns %}
 {% column width="25%" %}
