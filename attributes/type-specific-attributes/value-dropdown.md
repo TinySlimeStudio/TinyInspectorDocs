@@ -3,7 +3,7 @@ description: >-
   ValueDropdown is used on any property and creates a dropdown with configurable
   options. Use this to give the user a specific set of options to select from.
 icon: arrow-down-1-9
-cover: ../../.gitbook/assets/ComingSoon.png
+cover: ../../.gitbook/assets/background_test_2.png
 coverY: 0.4868123587038369
 layout:
   width: default
@@ -30,13 +30,13 @@ layout:
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>
 {% endhint %}
 
-### <i class="fa-eye">:eye:</i>  Attribute Preview
+### <i class="fa-eye">:eye:</i> Attribute Preview
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/MinMaxSlider-Dark.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
 
-### <i class="fa-square-code">:square-code:</i>  Code
+### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
 [MinMaxSlider(0, 100)]
@@ -46,7 +46,7 @@ public Vector2Int IntType = new Vector2Int(25, 75);
 public Vector2 FloatType = new Vector2(25, 75);
 ```
 
-### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i>  Change History
+### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i> Change History
 
 {% columns %}
 {% column width="25%" %}
