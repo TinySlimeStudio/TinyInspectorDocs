@@ -40,12 +40,10 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i> Change History
 
-{% columns %}
-{% column width="25%" %}
-**Version 1.0.0a**
-{% endcolumn %}
+{% updates format="full" %}
+{% update date="2026-01-04" %}
+## Version 1.0.0a
 
-{% column width="75%" %}
 * Attribute Added
-{% endcolumn %}
-{% endcolumns %}
+{% endupdate %}
+{% endupdates %}
