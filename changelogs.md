@@ -5,7 +5,7 @@ icon: file-circle-exclamation
 # Changelogs
 
 {% updates format="full" %}
-{% update date="2025-12-18" %}
+{% update date="2026-01-31" %}
 ## Version 1.0.0a
 
 Added:
