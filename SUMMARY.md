@@ -3,6 +3,7 @@
 * [Welcome to Tiny Inspector](README.md)
 * [Installation](installation.md)
 * [How to Use](how-to-use.md)
+* [Changelogs](changelogs.md)
 
 ## Attributes
 
@@ -24,20 +25,14 @@
   * [Table List](attributes/type-specific-attributes/sorting-layer-dropdown-1.md)
   * [Inline Editor](attributes/type-specific-attributes/sorting-layer-dropdown-2.md)
   * [Dictionary Table](attributes/type-specific-attributes/sorting-layer-dropdown-3.md)
+  * [Path Picker](attributes/type-specific-attributes/sorting-layer-dropdown-4.md)
+  * [Animator Parameter](attributes/type-specific-attributes/sorting-layer-dropdown-5.md)
+  * [Material Parameter](attributes/type-specific-attributes/sorting-layer-dropdown-6.md)
 * [Number Attributes](attributes/number-attributes/README.md)
   * [Min Max Slider](attributes/number-attributes/min-max-slider.md)
   * [Progress Bar](attributes/number-attributes/progress-bar.md)
   * [Wrap](attributes/number-attributes/wrap.md)
   * [Formatted Number](attributes/number-attributes/formatted-number.md)
-* [Misc Attributes](attributes/misc-attributes/README.md)
-  * [Info Box](attributes/misc-attributes/info-box.md)
-  * [Suffix](attributes/misc-attributes/suffix.md)
-  * [Hide Label](attributes/misc-attributes/hide-label.md)
-  * [Custom Label](attributes/misc-attributes/custom-label.md)
-  * [Spacer](attributes/misc-attributes/spacer.md)
-  * [Indent](attributes/misc-attributes/indent.md)
-  * [Custom Context Menu](attributes/misc-attributes/custom-context-menu.md)
-  * [Searchable Dropdown](attributes/misc-attributes/custom-context-menu-1.md)
 * [Decoration Attributes](attributes/decoration-attributes/README.md)
   * [Title](attributes/decoration-attributes/title.md)
   * [Preview Field](attributes/decoration-attributes/preview-field.md)
@@ -47,12 +42,23 @@
   * [Image Area](attributes/decoration-attributes/image-area.md)
   * [Indent](attributes/decoration-attributes/image-area-1.md)
   * [GUI Color](attributes/decoration-attributes/image-area-2.md)
+  * [Steps](attributes/decoration-attributes/image-area-3.md)
+* [Misc Attributes](attributes/misc-attributes/README.md)
+  * [Info Box](attributes/misc-attributes/info-box.md)
+  * [Suffix](attributes/misc-attributes/suffix.md)
+  * [Hide Label](attributes/misc-attributes/hide-label.md)
+  * [Custom Label](attributes/misc-attributes/custom-label.md)
+  * [Spacer](attributes/misc-attributes/spacer.md)
+  * [Indent](attributes/misc-attributes/indent.md)
+  * [Label Width](attributes/misc-attributes/indent-1.md)
+  * [Custom Context Menu](attributes/misc-attributes/custom-context-menu.md)
 * [Essencial Attributes](attributes/essencial-attributes/README.md)
   * [Required](attributes/essencial-attributes/required.md)
   * [Scene Only](attributes/essencial-attributes/scene-only.md)
   * [Asset Only](attributes/essencial-attributes/asset-only.md)
   * [Child Only](attributes/essencial-attributes/child-only.md)
   * [Read Only](attributes/essencial-attributes/read-only.md)
+  * [Reset Button](attributes/essencial-attributes/read-only-1.md)
 * [Condition Attributes](attributes/condition-attributes/README.md)
   * [Show / Hide IF](attributes/condition-attributes/show-if.md)
   * [Enable / Disable IF](attributes/condition-attributes/enable-if.md)
@@ -67,12 +73,20 @@
 
 ## Drawers
 
+* [Timespan Drawer](drawers/custom-context-menu.md)
+* [GUID Drawer](drawers/custom-context-menu-1.md)
+* [Big Integer Drawer](drawers/custom-context-menu-2.md)
+* [Type Drawer](drawers/custom-context-menu-3.md)
+
+## Inspector & Hierarchy
+
+* [Searchable Dropdown](inspector-and-hierarchy/custom-context-menu.md)
+* [Hierarchy Title](inspector-and-hierarchy/custom-context-menu-1.md)
+* [Hierarchy Separator](inspector-and-hierarchy/custom-context-menu-2.md)
+* [Object Notes](inspector-and-hierarchy/custom-context-menu-3.md)
+
 ## Editors
 
 * [Attribute Showcase Window](editors/attribute-showcase-window.md)
 * [Color Palette Window](editors/color-palette-window.md)
 * [Icon Viewer Window](editors/icon-viewer-window.md)
-
-***
-
-* [Changelogs](changelogs.md)
