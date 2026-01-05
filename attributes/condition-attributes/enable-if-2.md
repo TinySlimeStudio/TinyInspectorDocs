@@ -1,12 +1,10 @@
 ---
-description: >-
-  EnableIf & DisableIf is used on any property to control whether it is editable
-  in the inspector. Use these attributes to enable properties when they are
-  relevant and disable them when they are not.
+description: ...
+hidden: true
 icon: circle-check
 ---
 
-# Enable / Disable IF
+# Enable / Disable in Playmode
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

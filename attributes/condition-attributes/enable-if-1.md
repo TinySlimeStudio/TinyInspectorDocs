@@ -1,23 +1,22 @@
 ---
-description: >-
-  HideIf is used on any property and can hide the property in the inspector. Use
-  this to hide irrelevant properties based on the current state of the object.
-icon: face-dotted
+description: ...
+hidden: true
+icon: circle-check
 ---
 
-# Hide IF
+# Show / Hide in Playmode
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>
 {% endhint %}
 
-### <i class="fa-eye">:eye:</i>  Attribute Preview
+### <i class="fa-eye">:eye:</i> Attribute Preview
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/MinMaxSlider-Dark.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
 
-### <i class="fa-square-code">:square-code:</i>  Code
+### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
 [MinMaxSlider(0, 100)]
@@ -27,7 +26,7 @@ public Vector2Int IntType = new Vector2Int(25, 75);
 public Vector2 FloatType = new Vector2(25, 75);
 ```
 
-### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i>  Change History
+### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i> Change History
 
 {% columns %}
 {% column width="25%" %}
