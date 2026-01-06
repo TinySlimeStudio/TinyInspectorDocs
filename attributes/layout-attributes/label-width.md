@@ -1,6 +1,7 @@
 ---
 description: This attribute is not yet available at this time.
 hidden: true
+icon: text-width
 cover: ../../.gitbook/assets/background_test_2.png
 coverY: 0.4868123587038369
 layout:
@@ -22,7 +23,7 @@ layout:
     visible: true
 ---
 
-# Custom Context Menu
+# Label Width
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

@@ -3,7 +3,7 @@ description: >-
   ShowIf & HideIf is used on any property to control whether it is visible in
   the inspector, which shows relevant properties and hides those not based on
   the current state.
-icon: arrows-to-eye
+icon: eye
 ---
 
 # Show / Hide IF

@@ -1,8 +1,9 @@
 ---
 hidden: true
+icon: square-pen
 ---
 
-# Dictionary Table
+# Inline Editor
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

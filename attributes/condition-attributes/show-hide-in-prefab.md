@@ -1,7 +1,7 @@
 ---
 description: ...
 hidden: true
-icon: circle-check
+icon: eye-slash
 ---
 
 # Show / Hide in Prefab

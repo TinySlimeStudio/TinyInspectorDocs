@@ -1,8 +1,9 @@
 ---
 hidden: true
+icon: bullseye-pointer
 ---
 
-# Animator Parameter
+# Material Parameter
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

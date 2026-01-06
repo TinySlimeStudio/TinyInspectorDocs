@@ -1,7 +1,7 @@
 ---
 description: ...
 hidden: true
-icon: circle-check
+icon: badge-check
 ---
 
 # Enable / Disable in Prefab

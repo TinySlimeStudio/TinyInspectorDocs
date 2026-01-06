@@ -1,10 +1,10 @@
 ---
 description: ...
 hidden: true
-icon: circle-check
+icon: hexagon-check
 ---
 
-# Enable / Disable in Playmode
+# Enable / Disable in Play Mode
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

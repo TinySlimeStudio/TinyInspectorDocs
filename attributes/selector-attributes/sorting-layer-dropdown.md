@@ -1,29 +1,9 @@
 ---
-description: This attribute is not yet available at this time.
 hidden: true
-icon: image-landscape
-cover: ../../.gitbook/assets/background_test_2.png
-coverY: 0.4868123587038369
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
+icon: filter-list
 ---
 
-# Indent
+# Sorting Layer Dropdown
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

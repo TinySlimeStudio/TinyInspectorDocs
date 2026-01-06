@@ -1,0 +1,6 @@
+---
+icon: stop
+---
+
+# Action Attributes
+

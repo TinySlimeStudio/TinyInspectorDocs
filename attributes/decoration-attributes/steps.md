@@ -1,7 +1,7 @@
 ---
 description: This attribute is not yet available at this time.
 hidden: true
-icon: image-landscape
+icon: list
 cover: ../../.gitbook/assets/background_test_2.png
 coverY: 0.4868123587038369
 layout:
