@@ -45,4 +45,22 @@ Your feedback supports future updates, new features, and ongoing improvements.
 
 ### <i class="fa-gear">:gear:</i> Quick Start
 
+{% columns %}
+{% column %}
+<figure><img src=".gitbook/assets/background_test_2.png" alt=""><figcaption><p>Decoration Attribute</p></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+Test
+{% endcolumn %}
+
+{% column %}
+Test
+{% endcolumn %}
+
+{% column %}
+Test
+{% endcolumn %}
+{% endcolumns %}
+
 <table data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Group Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td><a href="attributes/group-attributes/box-group.md">box-group.md</a></td><td><a href="attributes/group-attributes/">group-attributes</a></td></tr><tr><td align="center">Type Specific Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="/broken/pages/R7nJEAEsrpVhuIzAk5QQ">Broken link</a></td></tr><tr><td align="center">Number Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/number-attributes/">number-attributes</a></td></tr><tr><td align="center">Misc Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/misc-attributes/">misc-attributes</a></td></tr><tr><td align="center">Decoration Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/decoration-attributes/">decoration-attributes</a></td></tr><tr><td align="center">Essencial Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/essencial-attributes/">essencial-attributes</a></td></tr><tr><td align="center">Condition Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/condition-attributes/">condition-attributes</a></td></tr><tr><td align="center">Script Attributes</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="attributes/script-attributes/">script-attributes</a></td></tr><tr><td align="center">More Coming Soon</td><td><a href=".gitbook/assets/background_test_2.png">background_test_2.png</a></td><td></td><td><a href="changelogs.md">changelogs.md</a></td></tr></tbody></table>
