@@ -58,6 +58,8 @@
   * [Enable / Disable IF](attributes/condition-attributes/enable-disable-if.md)
   * [Show / Hide in Play Mode](attributes/condition-attributes/show-hide-in-play-mode.md)
   * [Enable / Disable in Play Mode](attributes/condition-attributes/enable-disable-in-play-mode.md)
+  * [Show / Hide in Edit Mode](attributes/condition-attributes/show-hide-in-edit-mode.md)
+  * [Enable / Disable in Edit Mode](attributes/condition-attributes/enable-disable-in-edit-mode.md)
   * [Show / Hide in Prefab](attributes/condition-attributes/show-hide-in-prefab.md)
   * [Enable / Disable in Prefab](attributes/condition-attributes/enable-disable-in-prefab.md)
 * [Validation Attributes](attributes/essencial-attributes/README.md)

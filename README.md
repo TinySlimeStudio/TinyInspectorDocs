@@ -35,6 +35,8 @@ The updated version will be included in the **1.0.0a** update.
 
 **Tiny Inspector** is a powerful and intuitive extension package that upgrades the Unity Inspector with features that go far beyond the default editor. With enhanced attributes, customizable controls, and automated UI improvements, you can create cleaner, more ergonomic, and faster workflows — all without writing extensive editor code.
 
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h4>Unity Version</h4></td><td>2022.3+</td></tr><tr><td><h4>Version</h4></td><td>1.0.0a</td></tr><tr><td><h4>Last Update</h4></td><td>0000/00/00</td></tr></tbody></table>
+
 ### <i class="fa-hands-holding-circle">:hands-holding-circle:</i> Support Tiny Slime Studio!
 
 Thank you for purchasing **Tiny Inspector**!\

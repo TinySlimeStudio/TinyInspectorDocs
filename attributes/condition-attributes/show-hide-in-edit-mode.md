@@ -3,7 +3,7 @@ description: ...
 icon: eye-slash
 ---
 
-# Show / Hide in Prefab
+# Show / Hide in Edit Mode
 
 {% hint style="info" %}
 This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>

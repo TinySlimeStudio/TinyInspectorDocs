@@ -1,6 +1,5 @@
 ---
 description: ...
-hidden: true
 icon: arrows-to-eye
 ---
 
