@@ -2,6 +2,7 @@
 icon: hand-wave
 cover: .gitbook/assets/background_test_2.png
 coverY: 0
+coverHeight: 216
 layout:
   width: default
   cover:
