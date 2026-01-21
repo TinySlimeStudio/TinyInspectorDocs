@@ -24,15 +24,24 @@ public Vector2Int IntType = new Vector2Int(25, 75);
 public Vector2 FloatType = new Vector2(25, 75);
 ```
 
-### <i class="fa-rectangle-history-circle-user">:rectangle-history-circle-user:</i>  Change History
+### <i class="fa-gears">:gears:</i>  Parameters
 
-{% columns %}
-{% column width="25%" %}
-**Version 1.0.0a**
-{% endcolumn %}
+&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>**&#x20;     ValueName**\
+<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup>
 
-{% column width="75%" %}
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>**&#x20;     ValueName**\
+<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup>
+
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>**&#x20;     ValueName**\
+<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup> [<sup><mark style="color:$info;">Color Palette<mark style="color:$info;"></sup>](../../editors/color-palette-window.md)
+
+### <i class="fa-list-timeline">:list-timeline:</i>  Change History
+
+{% updates format="full" %}
+{% update date="2026-01-04" %}
+## Version 1.0.0a
+
 * Attribute Added
-{% endcolumn %}
-{% endcolumns %}
+{% endupdate %}
+{% endupdates %}
 
