@@ -30,10 +30,10 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-<mark style="color:$danger;background-color:$danger;">&#x20;&#x20;&#x20;**REQUIRED**&#x20;&#x20;&#x20;</mark> <mark style="color:$info;">**float**</mark>**&#x20;Min**\
+<mark style="color:$danger;background-color:$danger;">&#x20;&#x20;&#x20;**REQUIRED**&#x20;&#x20;&#x20;</mark>&#x20;&#x20;<mark style="color:$info;">**float**</mark>**&#x20;Min**\
 <sup><mark style="color:$info;">Minimum value of the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$danger;background-color:$danger;">&#x20;&#x20;&#x20;**REQUIRED**&#x20;&#x20;&#x20;</mark> <mark style="color:$info;">**float**</mark>**&#x20;Max**\
+<mark style="color:$danger;background-color:$danger;">&#x20;&#x20;&#x20;**REQUIRED**&#x20;&#x20;&#x20;</mark>&#x20;<mark style="color:$info;">**float**</mark>**&#x20;Max**\
 <sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">&#x20;&#x20;&#x20;**OPTIONAL**&#x20;&#x20;&#x20;</mark> <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
