@@ -30,25 +30,25 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">**float**</mark>**&#x20;Min**\
+&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>  <mark style="color:$info;">float</mark>**&#x20;Min**\
 <sup><mark style="color:$info;">Minimum value of the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">**float**</mark>**&#x20;Max**\
+&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>  <mark style="color:$info;">float</mark>**&#x20;Max**\
 <sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">float</mark> **BarText** <mark style="color:$info;">= null</mark>\
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">float</mark> **BarText** <mark style="color:$info;">= null</mark>\
 <sup><mark style="color:$info;">Optional text inside the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyInspectorColor</mark> **Color** <mark style="color:$info;">= TinyInspectorColor.Defualt</mark>\
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">TinyInspectorColor</mark> **Color** <mark style="color:$info;">= TinyInspectorColor.Defualt</mark>\
 <sup><mark style="color:$info;">Fill color of the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **ShowValueText** <mark style="color:$info;">= true</mark>\
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">bool</mark> **ShowValueText** <mark style="color:$info;">= true</mark>\
 <sup><mark style="color:$info;">Show value as text on the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **FullWidth** <mark style="color:$info;">= true</mark>\
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">bool</mark> **FullWidth** <mark style="color:$info;">= true</mark>\
 <sup><mark style="color:$info;">Use full inspector width.<mark style="color:$info;"></sup>
 
 &#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$primary;background-color:$primary;"></mark>  <mark style="color:$info;">bool</mark> **ShowValueField** <mark style="color:$info;">= true</mark>\
