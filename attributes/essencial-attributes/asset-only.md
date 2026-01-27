@@ -26,17 +26,13 @@ public Vector2Int IntType = new Vector2Int(25, 75);
 public Vector2 FloatType = new Vector2(25, 75);
 ```
 
-### <i class="fa-gears">:gears:</i>  Parameters
+### <i class="fa-gears">:gears:</i> Parameters
 
-&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>**&#x20;     ValueName**\
-<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup>
+&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>  <mark style="color:$info;">float</mark>**&#x20;Max**\
+<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
 
-&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>**&#x20;     ValueName**\
-<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup>
-
-&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>**&#x20;     ValueName**\
-<sup><mark style="color:$info;">Lorem Ipsum dolor sit amen, concenterus adispincing elit.<mark style="color:$info;"></sup> [<sup><mark style="color:$info;">Color Palette<mark style="color:$info;"></sup>](../../editors/color-palette-window.md)
-
+&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 ### <i class="fa-list-timeline">:list-timeline:</i>  Change History
 
 {% updates format="full" %}
