@@ -47,9 +47,3 @@ public Vector2 FloatType = new Vector2(25, 75);
 * Attribute Added
 {% endupdate %}
 {% endupdates %}
-
-### <i class="fa-lightbulb-on">:lightbulb-on:</i>  Planned Features
-
-* Feature 1
-* Feature 2
-* Feature 3
