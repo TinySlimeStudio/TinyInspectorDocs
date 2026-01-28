@@ -24,10 +24,10 @@ public Vector2 FloatType = new Vector2(25, 75);
 ### <i class="fa-gears">:gears:</i> Parameters
 
 <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **Label**\
-<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Custom label text.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Optional icon displayed next to the label.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 

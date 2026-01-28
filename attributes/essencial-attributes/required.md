@@ -27,8 +27,8 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">bool</mark> **IsRequired**\
-<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
+<mark style="color:$warning;background-color:$warning;">**REQUIRED**</mark> <mark style="color:$info;">bool</mark> **IsRequired**\
+<sup><mark style="color:$info;">Enables or disables the required validation check.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 

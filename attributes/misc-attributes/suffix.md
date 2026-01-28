@@ -24,13 +24,13 @@ public Vector2 FloatType = new Vector2(25, 75);
 ### <i class="fa-gears">:gears:</i> Parameters
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">string</mark> **Label** <mark style="color:$info;">= null</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Text displayed as the field suffix.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Optional icon displayed alongside the suffix.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **IsOverlay** <mark style="color:$info;">= true</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">If true, the suffix is rendered as an overlay.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 

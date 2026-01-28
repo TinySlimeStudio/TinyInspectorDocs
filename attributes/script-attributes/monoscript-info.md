@@ -28,10 +28,10 @@ public Vector2 FloatType = new Vector2(25, 75);
 ### <i class="fa-gears">:gears:</i> Parameters
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">string</mark> **Description** <mark style="color:$info;">= null</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Text shown under the script name in the Inspector.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">string</mark> **URLLink** <mark style="color:$info;">= null</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Optional URL opened from the documentation button.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
