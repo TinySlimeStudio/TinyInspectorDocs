@@ -27,17 +27,17 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **LabelWhenOn** <mark style="color:$info;">= "ON"</mark>\
-<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
+<mark style="color:$warning;background-color:$warning;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **LabelWhenOn** <mark style="color:$info;">= "ON"</mark>\
+<sup><mark style="color:$info;">Label displayed when the value is true.<mark style="color:$info;"></sup>
 
-<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **LabelWhenOFF** <mark style="color:$info;">= "OFF"</mark>\
-<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
+<mark style="color:$warning;background-color:$warning;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **LabelWhenOFF** <mark style="color:$info;">= "OFF"</mark>\
+<sup><mark style="color:$info;">Label displayed when the value is false.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyColor</mark> **Color** <mark style="color:$info;">= TinyColor.Defualt</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">Optional color applied to the switch.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **Expand** <mark style="color:$info;">= false</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+<sup><mark style="color:$info;">If true, the switch expands to full width.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
