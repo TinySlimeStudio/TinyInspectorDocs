@@ -1,20 +1,18 @@
 ---
+description: >-
+  Extends section headers with a title, description, and optional icon, allowing
+  you to clearly separate and document Inspector sections with enhanced visual
+  structure.
 icon: heading
 ---
 
 # Title
 
-{% hint style="info" %}
-This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>
-{% endhint %}
-
-### <i class="fa-eye">:eye:</i>  Attribute Preview
+### <i class="fa-eye">:eye:</i> Attribute Preview
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/MinMaxSlider-Dark.png" alt=""><figcaption></figcaption></figure></div>
 
-<p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
-
-### <i class="fa-square-code">:square-code:</i>  Code
+### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
 [MinMaxSlider(0, 100)]
@@ -26,13 +24,22 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>  <mark style="color:$info;">float</mark>**&#x20;Max**\
+<mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **Title**\
 <sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
 
-&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
-### <i class="fa-list-timeline">:list-timeline:</i>  Change History
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">string</mark> **Description** <mark style="color:$info;">= null</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **Horizontal** <mark style="color:$info;">= true</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **DrawLine** <mark style="color:$info;">= false</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+
+### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
 {% update date="2026-01-04" %}
@@ -41,4 +48,3 @@ public Vector2 FloatType = new Vector2(25, 75);
 * Attribute Added
 {% endupdate %}
 {% endupdates %}
-

@@ -1,21 +1,21 @@
 ---
-description: This attribute is not yet available at this time.
+description: >-
+  Displays a live preview of the assigned asset directly in the Inspector,
+  allowing quick inspection without opening separate windows.
 icon: hexagon-image
 ---
 
 # Preview Field
 
 {% hint style="info" %}
-This attribute can be used only with: <mark style="color:$primary;">**Vector2**</mark>, <mark style="color:$primary;">**Vector2Int**</mark>
+This attribute can be used only with: <mark style="color:$primary;">**Object**</mark>, <mark style="color:$primary;">**Sprite**</mark>, <mark style="color:$primary;">**Texture**</mark>, <mark style="color:$primary;">**Component**</mark>, <mark style="color:$primary;">**Material**</mark>
 {% endhint %}
 
-### <i class="fa-eye">:eye:</i>  Attribute Preview
+### <i class="fa-eye">:eye:</i> Attribute Preview
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/MinMaxSlider-Dark.png" alt=""><figcaption></figcaption></figure></div>
 
-<p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
-
-### <i class="fa-square-code">:square-code:</i>  Code
+### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
 [MinMaxSlider(0, 100)]
@@ -27,13 +27,13 @@ public Vector2 FloatType = new Vector2(25, 75);
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-&#x20;  <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark>  <mark style="color:$info;">float</mark>**&#x20;Max**\
-<sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
-
-&#x20;  <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark>  <mark style="color:$info;">float</mark> **Height** <mark style="color:$info;">= 16</mark>\
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">int</mark> **GridSize** <mark style="color:$info;">= 3</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
-### <i class="fa-list-timeline">:list-timeline:</i>  Change History
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **ShowField** <mark style="color:$info;">= true</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+
+### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
 {% update date="2026-01-04" %}
