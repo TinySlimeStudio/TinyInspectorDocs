@@ -6,7 +6,7 @@ description: >-
 icon: arrows-left-right-to-line
 ---
 
-# Spacer
+# Property Spacer
 
 ### <i class="fa-eye">:eye:</i> Attribute Preview
 
@@ -15,11 +15,14 @@ icon: arrows-left-right-to-line
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Spacer()]
+public string Spacer8 = "8 is the default value";
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Spacer(16)]
+public string Spacer16;
+
+[Spacer(32)]
+public string Spacer32;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

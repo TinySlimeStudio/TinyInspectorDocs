@@ -20,11 +20,14 @@ This attribute can be used only with: <mark style="color:$primary;">**Numeric**<
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Wrap(0, 100)]
+public int WrappedValue1 = 20;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Wrap(0, 100)]
+public float WrappedValue2 = 50;
+
+[Wrap(0, 100)]
+public double WrappedValue3 = 80;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

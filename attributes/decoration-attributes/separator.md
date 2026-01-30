@@ -14,11 +14,17 @@ icon: dash
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Separator]
+public string Separator;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Separator(8)]
+public string Thick;
+
+[Separator(12, 24)]
+public string BeforeAfter;
+
+[Separator(4, TinyColor.Lime)]
+public string Colored;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

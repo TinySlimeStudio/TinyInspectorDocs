@@ -14,7 +14,7 @@
   * [Horizontal Group](attributes/group-attributes/horizontal-group.md)
   * [Vertical Group](attributes/group-attributes/vertical-group.md)
 * [Layout Attributes](attributes/layout-attributes/README.md)
-  * [Spacer](attributes/layout-attributes/spacer.md)
+  * [Property Spacer](attributes/layout-attributes/property-spacer.md)
   * [Label Width](attributes/layout-attributes/label-width.md)
   * [Indent](attributes/layout-attributes/indent.md)
 * [Decoration Attributes](attributes/decoration-attributes/README.md)

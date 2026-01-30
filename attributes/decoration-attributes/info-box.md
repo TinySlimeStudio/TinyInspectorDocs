@@ -14,11 +14,17 @@ icon: square-question
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[InfoBox("Title")]
+public string InfoBox1;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[InfoBox("Title", "Long Message")]
+public string InfoBox2;
+
+[InfoBox("Title", InfoBoxType.None)]
+public string InfoBox3;
+
+[InfoBox("Title", "Long Message", InfoBoxType.Success)]
+public string InfoBox4;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

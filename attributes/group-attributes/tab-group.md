@@ -14,11 +14,16 @@ icon: table-columns
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[TabGroup("Tabs", "Normal")]
+public string NormalValue1;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[TabGroup("Tabs", "Icon", TinyIcon.Save)]
+public string IconValue1;
+[TabGroup("Tabs", "Icon")]
+public string IconValue2;
+
+[TabGroup("Tabs", "Colored", TinyColor.Green)]
+public string ColorValue1;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

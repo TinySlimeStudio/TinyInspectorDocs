@@ -14,11 +14,21 @@ icon: box
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+ [BoxGroup("Base Box")]
+public string Value1;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[BoxGroup("Base Box")]
+public float Value2;
+
+[BoxGroup("Base Box/Boxed", TinyIcon.Storm)]
+public string BoxedValue1;
+
+[BoxGroup("Colored", TinyColor.Red)]
+public int ColoredBoxValue1;
+
+// Variables do not have to be in the same order as BoxGroup
+[BoxGroup("Base Box/Boxed")]
+public float BoxedValue2;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

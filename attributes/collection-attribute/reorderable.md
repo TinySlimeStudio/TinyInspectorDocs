@@ -19,11 +19,35 @@ This attribute can be used only with: <mark style="color:$primary;">**List**</ma
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Reorderable]
+public List<string> StringList = new List<string> { "Item 1", "Item 2", "Item 3" };
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Reorderable]
+public List<int> IntList = new List<int> { 10, 20, 30 };
+
+[Reorderable]
+public List<Vector3> Vector3List = new List<Vector3> 
+{ 
+    new Vector3(1, 2, 3), 
+    new Vector3(4, 5, 6), 
+    new Vector3(7, 8, 9) 
+};
+
+[Reorderable]
+public List<ExampleCustomClass> CustomClasses = new List<ExampleCustomClass>
+{
+    new ExampleCustomClass { Name = "First", Value = 1 },
+    new ExampleCustomClass { Name = "Second", Value = 2 },
+    new ExampleCustomClass { Name = "Third", Value = 3 }
+};
+
+[Reorderable, InlineDrawer]
+public List<ExampleCustomClass> CustomInlineClasses = new List<ExampleCustomClass>
+{
+    new ExampleCustomClass { Name = "First", Value = 1 },
+    new ExampleCustomClass { Name = "Second", Value = 2 },
+    new ExampleCustomClass { Name = "Third", Value = 3 }
+};
 ```
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History

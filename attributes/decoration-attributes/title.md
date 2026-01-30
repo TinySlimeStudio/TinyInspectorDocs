@@ -15,11 +15,20 @@ icon: heading
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Title("Example Title")]
+public string Title1;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Title("Example Title", "Example Description")]
+public string Title2;
+
+[Title("Example Title", "Example Description", TinyIcon.Bell)]
+public string Title3;
+
+[Title("Example Title", "Example Description", TinyIcon.AlignVertical, Separator: true)]
+public string Title4;
+
+[Title("Example Title", "Example Description", TinyIcon.AlignLeft, RowDirection: false)]
+public string Title5;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters
@@ -27,16 +36,16 @@ public Vector2 FloatType = new Vector2(25, 75);
 <mark style="color:$danger;background-color:$danger;">**REQUIRED**</mark> <mark style="color:$info;">string</mark> **Title**\
 <sup><mark style="color:$info;">Maximum value of the bar.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\
-<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
-
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">string</mark> **Description** <mark style="color:$info;">= null</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **Horizontal** <mark style="color:$info;">= true</mark>\
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **DrawLine** <mark style="color:$info;">= false</mark>\
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **RowDirection** <mark style="color:$info;">= true</mark>\
+<sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
+
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **Seprator** <mark style="color:$info;">= false</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History

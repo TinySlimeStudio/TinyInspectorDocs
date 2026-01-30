@@ -14,11 +14,17 @@ icon: up-down
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[HorizontalGroup("Split")]
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[VerticalGroup("Split/Left")]
+[BoxGroup("Split/Left/Box 1")]
+public string Box1Value;
+
+[BoxGroup("Split/Left/Box 2")]
+public string Box2Value;
+
+[BoxGroup("Split/Right")]
+public int RightValue1;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

@@ -13,13 +13,18 @@ icon: table-tree
 
 ### <i class="fa-square-code">:square-code:</i> Code
 
+{% code fullWidth="false" %}
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[FoldoutGroup("Base Foldout")]
+public string Value1;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[FoldoutGroup("Foldout with Icon", TinyIcon.Lab)]
+public int IconValue1;
+
+[FoldoutGroup("Foldout with Icon/Colored", TinyColor.Purple)]
+public int ColoredValue1;
 ```
+{% endcode %}
 
 ### <i class="fa-gears">:gears:</i> Parameters
 

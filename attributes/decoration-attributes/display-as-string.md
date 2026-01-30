@@ -18,16 +18,22 @@ This attribute can be used only with: <mark style="color:$primary;">**String**</
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[DisplayAsString]
+public string String1 = "Property Value";
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[DisplayAsString(true)]
+public string String2 = "Property Value";
+
+[DisplayAsString(TinyIcon.Mail)]
+public string String3 = "Property Value";
+
+[DisplayAsString(true, TinyIcon.Ammo)]
+public string String4 = "Property Value";
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters
 
-<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **EnableLabel** <mark style="color:$info;">= false</mark>\
+<mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">bool</mark> **ShowPropertyLabel** <mark style="color:$info;">= false</mark>\
 <sup><mark style="color:$info;">Bar height in pixels.<mark style="color:$info;"></sup>
 
 <mark style="color:$primary;background-color:$primary;">**OPTIONAL**</mark> <mark style="color:$info;">TinyIcon</mark> **Icon** <mark style="color:$info;">= TinyIcon.None</mark>\

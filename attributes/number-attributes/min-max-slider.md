@@ -21,10 +21,10 @@ This attribute can be used only with: <mark style="color:$primary;">**Vector2**<
 
 ```csharp
 [MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+public Vector2Int Slider1 = new Vector2Int(25, 75);
 
 [MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+public Vector2 Slider2 = new Vector2(25, 75);
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters
