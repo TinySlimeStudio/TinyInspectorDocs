@@ -13,7 +13,7 @@ This attribute can be used only with: <mark style="color:$primary;">**Vector2**<
 
 ### <i class="fa-eye">:eye:</i> Attribute Preview
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/MinMaxSlider-Dark.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Zrzut ekranu 2026-02-19 020617.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><sup><mark style="color:$primary;">Min Max Slider</mark></sup> <sup><mark style="color:$primary;">Attribute</mark> adds a Description to the Tooltip Informing About the Set Attributes</sup></p>
 
@@ -38,7 +38,7 @@ public Vector2 Slider2 = new Vector2(25, 75);
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
-{% update date="2026-01-04" %}
+{% update date="2026-02-24" %}
 ## Version 1.0.0a
 
 * Attribute Added

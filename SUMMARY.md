@@ -39,7 +39,6 @@
   * [Animator Parameter](attributes/selector-attributes/animator-parameter.md)
   * [Material Parameter](attributes/selector-attributes/material-parameter.md)
   * [Path Picker](attributes/selector-attributes/path-picker.md)
-  * [Resizeable Text Area](attributes/selector-attributes/resizeable-text-area.md)
 * [Number Attributes](attributes/number-attributes/README.md)
   * [Min Max Slider](attributes/number-attributes/min-max-slider.md)
   * [Progress Bar](attributes/number-attributes/progress-bar.md)
@@ -50,6 +49,7 @@
   * [Hide Label](attributes/misc-attributes/hide-label.md)
   * [Custom Label](attributes/misc-attributes/custom-label.md)
   * [Switch](attributes/misc-attributes/switch.md)
+  * [Multiline Text Area](attributes/misc-attributes/multiline-text-area.md)
 * [Action Attributes](attributes/action-attributes/README.md)
   * [Button](attributes/action-attributes/button.md)
   * [Reset Button](attributes/action-attributes/reset-button.md)
@@ -77,9 +77,11 @@
 ## Drawers
 
 * [Timespan Drawer](drawers/timespan-drawer.md)
+* [Big Integer Drawer](drawers/timespan-drawer-1.md)
 * [GUID Drawer](drawers/guid-drawer.md)
 * [Big Integer Drawer](drawers/big-integer-drawer.md)
 * [Type Drawer](drawers/type-drawer.md)
+* [Dictionary Drawer](drawers/type-drawer-1.md)
 
 ## Inspector & Hierarchy
 
@@ -91,5 +93,6 @@
 ## Editors
 
 * [Attribute Showcase Window](editors/attribute-showcase-window.md)
+* [Player Prefs Manager](editors/icon-viewer-window.md)
+* [Icon Viewer Window](editors/icon-viewer-window-1.md)
 * [Color Palette Window](editors/color-palette-window.md)
-* [Icon Viewer Window](editors/icon-viewer-window.md)

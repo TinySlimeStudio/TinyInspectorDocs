@@ -35,7 +35,7 @@ public int RightValue1;
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
-{% update date="2026-01-04" %}
+{% update date="2026-02-24" %}
 ## Version 1.0.0a
 
 * Attribute Added

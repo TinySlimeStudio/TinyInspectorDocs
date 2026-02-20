@@ -4,23 +4,6 @@ hidden: true
 icon: text-size
 cover: ../.gitbook/assets/background_test_2.png
 coverY: 0.4868123587038369
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Type Drawer
