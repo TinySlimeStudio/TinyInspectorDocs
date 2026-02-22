@@ -4,6 +4,7 @@
 * [Installation](installation.md)
 * [How to Use](how-to-use.md)
 * [Changelogs](changelogs.md)
+* [Roadmap](roadmap.md)
 
 ## Attributes
 
@@ -92,7 +93,7 @@
 
 ## Editors
 
-* [Attribute Showcase Window](editors/attribute-showcase-window.md)
 * [Player Prefs Manager](editors/icon-viewer-window.md)
+* [Attribute Showcase Window](editors/attribute-showcase-window.md)
 * [Icon Viewer Window](editors/icon-viewer-window-1.md)
-* [Color Palette Window](editors/color-palette-window.md)
+* [Settings Window](editors/settings-window.md)

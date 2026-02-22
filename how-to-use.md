@@ -70,7 +70,7 @@ public class DemoScript : MonoBehaviour
 <strong>    [MultilineTextArea(3, 200)]
 </strong>    public string PlayerDescription;
 
-<strong>    [ProgressBar(0,100,Color: TinyColor.Red)]
+<strong>    [ProgressBar(0, 100, Color: TinyColor.Red)]
 </strong>    public int Health;
 <strong>    [Suffix("Player Level")]
 </strong>    public int Level;

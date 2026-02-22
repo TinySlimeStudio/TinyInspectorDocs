@@ -17,7 +17,10 @@ metaLinks:
 ### <i class="fa-hands-holding-circle">:hands-holding-circle:</i> Support Tiny Slime Studio!
 
 Thank you for purchasing **Tiny Inspector**!\
-At Tiny Slime Studio, we’re committed to building tools that truly improve the developer experience and boost productivity inside Unity. This package is the result of our passion for workflow optimization and editor tooling.
+At Tiny Slime Studio, I'm committed to building tools that truly improve the developer experience and boost productivity inside Unity. This package is the result of my passion for workflow optimization and editor tooling.
 
-If Tiny Inspector has helped you in your development workflow, we would greatly appreciate a review!\
+If Tiny Inspector has helped you in your development workflow, I would greatly appreciate a review!
+
 Your feedback supports future updates, new features, and ongoing improvements.
+
+<a href="https://u3d.as/3JLb" class="button primary" data-icon="star">Rate this asset</a>

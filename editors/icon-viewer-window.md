@@ -5,7 +5,7 @@ icon: floppy-disk-pen
 
 # Player Prefs Manager
 
-{% hint style="info" %}
+{% hint style="info" icon="list" %}
 To open this editor in the toolbar, select <mark style="color:$primary;">Tools > Tiny Inspector > Tools > PlayerPrefs Manager</mark>
 {% endhint %}
 
