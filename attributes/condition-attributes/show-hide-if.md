@@ -21,11 +21,37 @@ This attribute can be used only with: <mark style="color:$primary;">**Vector2**<
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+// Demo Purpose Only
+public UnityEngine.Object SomeObject;
+[EnumToggle] public TestEnum SomeEnum;
+[Switch] public bool IsToggled;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+
+[ShowIf("IsToggled")]
+public string ShowWhenToggleOn;
+
+[HideIf("IsToggled")]
+public string HideWhenToggleOn;
+
+[ShowIf("SomeObject")]
+public string ShowWhenNotNull;
+
+[HideIf("SomeObject")]
+public string ShowWhenNull;
+
+[ShowIf("SomeEnum", TestEnum.FirstOption)]
+public string ShowOnlyWhenFirst;
+
+[HideIf("SomeEnum", TestEnum.FirstOption)]
+public string HideWhenFirst;
+
+// Demo Purpose Only
+public enum TestEnum
+{
+    FirstOption,
+    SecondOption,
+    ThirdOption
+}
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

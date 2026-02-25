@@ -18,11 +18,32 @@ This attribute can be used only with: <mark style="color:$primary;">**Void**</ma
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Button("Base Button")]
+public void SomeFunction()
+{
+    Debug.Log("Test");
+}
+[Button("Button (Custom Height)", 64)]
+public void SomeFunction1() 
+{
+    Debug.Log("Test");
+}
+[Button("Button with Icon", Icon: TinyIcon.Add)]
+public void SomeFunction2()
+{
+    Debug.Log("Test");
+}
+[Button("Colored Button", Color: TinyColor.Green)]
+public void SomeFunction3()
+{
+    Debug.Log("Test");
+}
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Button("Button with Attributes")]
+public void SomeFunctionWithAttributes(string val1, int val2, bool var3)
+{
+    Debug.Log("Test");
+}
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters
@@ -42,6 +63,13 @@ public Vector2 FloatType = new Vector2(25, 75);
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
+{% update date="2026-02-26" %}
+## Version 1.0.0b
+
+* Fix Missing Icon & Color
+* Improved Label Detection
+{% endupdate %}
+
 {% update date="2026-02-24" %}
 ## Version 1.0.0a
 

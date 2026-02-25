@@ -18,11 +18,23 @@ This attribute can be used only with: <mark style="color:$primary;">**Bool**</ma
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Switch]
+public bool Defualt;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Switch(Expand: true)]
+public bool Expanded;
+
+[Switch("Custom OFF", "Custom ON")]
+public bool Labels;
+
+[Switch("Custom OFF", "Custom ON", Expand: true)]
+public bool LabelsAndExpanded;
+
+[Switch(TinyColor.Red)]
+public bool Color;
+
+[Switch(TinyColor.Green, Expand: true)]
+public bool ColorAndExpanded;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

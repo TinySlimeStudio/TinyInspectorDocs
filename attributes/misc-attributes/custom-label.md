@@ -14,11 +14,11 @@ icon: font-case
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[CustomLabel("Custom Label")]
+public string Defualt;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[CustomLabel("Custom Label with Icon", TinyIcon.Computer)]
+public string WithIcon;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

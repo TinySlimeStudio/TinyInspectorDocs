@@ -14,11 +14,8 @@ icon: text-slash
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
-
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[HideLabel]
+public string HidedLabel;
 ```
 
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History

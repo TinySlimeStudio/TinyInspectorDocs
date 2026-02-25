@@ -18,11 +18,17 @@ This attribute can be used only with: <mark style="color:$primary;">**Vector2**<
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[ShowInEditMode] 
+public int ShowInEditMode;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[HideInEditMode] 
+public int HideInEditMode;
+
+[EnableInEditMode] 
+public int EnableInEditMode;
+
+[DisableInEditMode] 
+public int DisableInEditMode;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

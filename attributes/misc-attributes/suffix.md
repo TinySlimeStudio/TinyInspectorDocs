@@ -14,11 +14,23 @@ icon: text-size
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
+[Suffix("Suffix")]
+public string Test;
 
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Suffix("Suffix", IsOverlay: false)]
+public string TextSpacing;
+
+[Suffix(Icon: TinyIcon.Audio)]
+public string Icon;
+
+[Suffix(Icon: TinyIcon.Download, IsOverlay: false)]
+public string IconSpasing;
+
+[Suffix("Suffix", TinyIcon.Audio)]
+public string TextIcon;
+
+[Suffix("Suffix", TinyIcon.Download, false)]
+public string TextIconSpasing;
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters

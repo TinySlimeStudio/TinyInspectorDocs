@@ -18,11 +18,11 @@ This attribute can be used only with: <mark style="color:$primary;">**MonoBehavi
 ### <i class="fa-square-code">:square-code:</i> Code
 
 ```csharp
-[MinMaxSlider(0, 100)]
-public Vector2Int IntType = new Vector2Int(25, 75);
-
-[MinMaxSlider(0, 100)]
-public Vector2 FloatType = new Vector2(25, 75);
+[Serializable, MonoscriptInfo("Script Description", "www.example.com")]
+public class MonoscriptInfoExample : MonoBehaviour
+{
+    public string someValue;
+}
 ```
 
 ### <i class="fa-gears">:gears:</i> Parameters
