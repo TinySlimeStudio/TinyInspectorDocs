@@ -54,6 +54,12 @@ public bool ColorAndExpanded;
 ### <i class="fa-list-timeline">:list-timeline:</i> Change History
 
 {% updates format="full" %}
+{% update date="2026-02-25" %}
+## Version 1.0.0b
+
+* Added Missing Light Mode Support
+{% endupdate %}
+
 {% update date="2026-02-24" %}
 ## Version 1.0.0a
 
