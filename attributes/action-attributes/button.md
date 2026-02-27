@@ -13,7 +13,7 @@ This attribute can be used only with: <mark style="color:$primary;">**Void**</ma
 
 ### <i class="fa-eye">:eye:</i> Attribute Preview
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Zrzut ekranu 2026-02-19 020727.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Zrzut ekranu 2026-02-19 020727 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### <i class="fa-square-code">:square-code:</i> Code
 

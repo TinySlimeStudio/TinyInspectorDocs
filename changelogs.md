@@ -7,8 +7,21 @@ icon: file-circle-exclamation
 ### <i class="fa-list-timeline">:list-timeline:</i>  Patch Notes
 
 {% updates format="full" %}
+{% update date="2026-02-26" %}
+## Bug Fixes (1.0.0b)
+
+**Attributes**
+
+* Add Missing Light Mode to Switch Attribute
+* Fix Button Attribute
+
+**Editor Tools**
+
+* Improved Code Preview in Attribute Showcase
+{% endupdate %}
+
 {% update date="2026-02-24" %}
-## First Release
+## First Release (1.0.0a)
 
 **Attributes**
 
