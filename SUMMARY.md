@@ -84,16 +84,20 @@
 * [Type Drawer](drawers/type-drawer.md)
 * [Dictionary Drawer](drawers/type-drawer-1.md)
 
-## Inspector & Hierarchy
+## Editor Enhancements
 
-* [Searchable Dropdown](inspector-and-hierarchy/searchable-dropdown.md)
-* [Hierarchy Title](inspector-and-hierarchy/hierarchy-title.md)
-* [Hierarchy Separator](inspector-and-hierarchy/hierarchy-separator.md)
-* [Object Notes](inspector-and-hierarchy/object-notes.md)
+* [Customizable Folders](editor-enhancements/icon-viewer-window.md)
+* [Searchable Dropdown](editor-enhancements/searchable-dropdown.md)
+* [Hierarchy Title](editor-enhancements/hierarchy-title.md)
+* [Hierarchy Separator](editor-enhancements/hierarchy-separator.md)
+* [Object Notes](editor-enhancements/object-notes.md)
+
+## Tools
+
+* [Player Prefs Manager](tools/icon-viewer-window.md)
 
 ## Editors
 
-* [Player Prefs Manager](editors/icon-viewer-window.md)
 * [Attribute Showcase Window](editors/attribute-showcase-window.md)
-* [Icon Viewer Window](editors/icon-viewer-window-1.md)
+* [Icon Viewer Window](editors/icon-viewer-window.md)
 * [Settings Window](editors/settings-window.md)

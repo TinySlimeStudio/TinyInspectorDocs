@@ -1,0 +1,20 @@
+- tag: new
+  label: New
+  icon: sparkles
+  color: green
+- tag: updated
+  label: Updated
+  icon: triple-chevrons-up
+  color: blue
+- tag: first-release
+  label: First Release
+  icon: play
+  color: $primary
+- tag: tag
+  label: Bug Fixes
+  icon: bug
+  color: $info
+- tag: new-feature
+  label: New Feature
+  icon: sparkles
+  color: $primary

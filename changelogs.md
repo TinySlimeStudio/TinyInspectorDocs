@@ -7,7 +7,15 @@ icon: file-circle-exclamation
 ### <i class="fa-list-timeline">:list-timeline:</i>  Patch Notes
 
 {% updates format="full" %}
-{% update date="2026-02-26" %}
+{% update date="2026-03-16" tags="new-feature" %}
+## Customizable Folders (1.1.0a)
+
+**Editor Tools**
+
+* **Customizable Folders** - Personalize the appearance and organization of folders in your project
+{% endupdate %}
+
+{% update date="2026-02-26" tags="tag" %}
 ## Bug Fixes (1.0.0b)
 
 **Attributes**
@@ -20,7 +28,7 @@ icon: file-circle-exclamation
 * Improved Code Preview in Attribute Showcase
 {% endupdate %}
 
-{% update date="2026-02-24" %}
+{% update date="2026-02-24" tags="first-release" %}
 ## First Release (1.0.0a)
 
 **Attributes**

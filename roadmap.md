@@ -9,15 +9,9 @@ icon: map
 This is more of an idea of what to expect in the future than a complete roadmap.
 {% endhint %}
 
-### <i class="fa-wrench">:wrench:</i> Version 1.0.X
+### <i class="fa-pen-ruler">:pen-ruler:</i> Version 1.2.0
 
-Depending on the number of problems and inconveniences after the release, patches may be released to fix bugs and glitches.
-
-> (I tested the package on 2022.3, 2023.3, 6.0, and 6.3, but I may have missed something.)
-
-### <i class="fa-pen-ruler">:pen-ruler:</i> Version 1.1.0
-
-For the first major update, I plan to add support for several non-serializable classes such as:
+For the secound major update, I plan to add support for several non-serializable classes such as:
 
 * Timespan
 * DateTime
