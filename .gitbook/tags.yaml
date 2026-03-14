@@ -1,7 +1,7 @@
 - tag: new
   label: New
   icon: sparkles
-  color: green
+  color: $primary
 - tag: updated
   label: Updated
   icon: triple-chevrons-up
